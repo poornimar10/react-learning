@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.clear {
+  clear: both;
+}
+
+h1#title {
+  padding: 1rem 0rem;
+  font-size: 4rem;
+  font-family: cursive;
+}
+h2 {
+  font-size: 3.6rem;
+  margin: 4rem 0rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 2.8rem;
+  color: rgb(217, 255, 0);
+}
+button {
+  font-size: 1.8rem;
+}
+nav {
+  width: 100%;
+  /* position: fixed; */
+
+  background: rgb(22, 50, 78);
+  color: whitesmoke;
+  padding: 2rem;
+}
+nav a {
+  color: whitesmoke;
+}
+nav h1 {
+  float: left;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  float: left;
+  margin: 2rem 4rem 2rem 4rem;
+}
+
+#top-section {
+  background-image: url("/src/images/pexels-pixabay-139398.jpg");
+  height: 80rem;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding-top: 17rem;
+}
+.title-section {
+  text-align: left;
+  border: 3px solid black;
+  padding: 2rem 2rem;
+  margin-left: 2rem;
+  width: 50%;
+}
+.table-section {
+  border-collapse: collapse;
+  font-size: 2rem;
+  font-family: cursive;
+  position: absolute;
+  left: 60%;
+  top: 45%;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+.table-section thead tr {
+  background-color: rgb(22, 50, 78);
+  text-align: left;
+  font-weight: bold;
+}
+.table-section th,
+.table-section td {
+  padding: 12px 15px;
+}
+.table-section tbody tr {
+  border-bottom: 1px solid black;
+}
+.table-section tbody tr:nth-of-type(even) {
+  background-color: rgb(22, 50, 78);
+}
+
+#top-section button,
+form button {
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+  background: rgb(22, 50, 78);
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.form-section {
+  text-align: center;
+  border: 2px solid black;
+}
+
+form input,
+form label,
+form textarea,
+#user-type {
+  display: block;
+  font-size: 2.4rem;
+  border-radius: 1rem;
+}
+form input,
+form textarea,
+#user-type {
+  margin: 1rem auto;
+  border: 2px solid black;
+  width: 50%;
+}
